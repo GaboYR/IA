@@ -6,3 +6,13 @@
 
 En algunos juegos no hay ganador, depende del algoritmo.
 
+- Arbol de juego de adversarios
+Genera los estados, se busca el minimo y el maximo.
+-1 : opcion posbible con alta probabilidad de perder
+0 : posible empate
+1: juego ganado
+
+a. Se busca como ganador a max
+b. Se prefiere busqueda en profundidad para mininmizar el espacio
+c. NO aplicable en ajedrez o juegos con muchos estados
+
